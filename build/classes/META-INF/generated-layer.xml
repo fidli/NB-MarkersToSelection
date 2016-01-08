@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="eu-fidli-markersToSelection-CreateSelectionFromMarkers.instance">
+                <!--eu.fidli.markersToSelection.CreateSelectionFromMarkers-->
+                <attr
+                    bundlevalue="eu.fidli.markersToSelection.Bundle#CTL_CreateSelectionFromMarkers" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.markersToSelection.CreateSelectionFromMarkers"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-SetBeginningMarkerForCurrentFile.instance">
+                <!--eu.fidli.markersToSelection.SetBeginningMarkerForCurrentFile-->
+                <attr
+                    bundlevalue="eu.fidli.markersToSelection.Bundle#CTL_SetBeginningMarkerForCurrentFile" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.markersToSelection.SetBeginningMarkerForCurrentFile"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-SetEndingMarkerForCurrentFile.instance">
+                <!--eu.fidli.markersToSelection.SetEndingMarkerForCurrentFile-->
+                <attr
+                    bundlevalue="eu.fidli.markersToSelection.Bundle#CTL_SetEndingMarkerForCurrentFile" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.markersToSelection.SetEndingMarkerForCurrentFile"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-GoToBeginnerMark.instance">
+                <!--eu.fidli.markersToSelection.GoToBeginnerMark-->
+                <attr
+                    bundlevalue="eu.fidli.markersToSelection.Bundle#CTL_GoToBeginnerMark" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.markersToSelection.GoToBeginnerMark"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-GoToEndingMark.instance">
+                <!--eu.fidli.markersToSelection.GoToEndingMark-->
+                <attr
+                    bundlevalue="eu.fidli.markersToSelection.Bundle#CTL_GoToEndingMark" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="eu.fidli.markersToSelection.GoToEndingMark"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="eu-fidli-markersToSelection-CreateSelectionFromMarkers.shadow">
+                <!--eu.fidli.markersToSelection.CreateSelectionFromMarkers-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-CreateSelectionFromMarkers.instance"/>
+                <attr intvalue="1250" name="position"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-SetBeginningMarkerForCurrentFile.shadow">
+                <!--eu.fidli.markersToSelection.SetBeginningMarkerForCurrentFile-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-SetBeginningMarkerForCurrentFile.instance"/>
+                <attr intvalue="1250" name="position"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-SetEndingMarkerForCurrentFile.shadow">
+                <!--eu.fidli.markersToSelection.SetEndingMarkerForCurrentFile-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-SetEndingMarkerForCurrentFile.instance"/>
+                <attr intvalue="1250" name="position"/>
+            </file>
+        </folder>
+        <folder name="GoTo">
+            <file name="eu-fidli-markersToSelection-GoToBeginnerMark.shadow">
+                <!--eu.fidli.markersToSelection.GoToBeginnerMark-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-GoToBeginnerMark.instance"/>
+                <attr intvalue="275" name="position"/>
+            </file>
+            <file name="eu-fidli-markersToSelection-GoToEndingMark.shadow">
+                <!--eu.fidli.markersToSelection.GoToEndingMark-->
+                <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-GoToEndingMark.instance"/>
+                <attr intvalue="275" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="O-E.shadow">
+            <!--eu.fidli.markersToSelection.CreateSelectionFromMarkers-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-CreateSelectionFromMarkers.instance"/>
+        </file>
+        <file name="O-Q.shadow">
+            <!--eu.fidli.markersToSelection.SetBeginningMarkerForCurrentFile-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-SetBeginningMarkerForCurrentFile.instance"/>
+        </file>
+        <file name="O-W.shadow">
+            <!--eu.fidli.markersToSelection.SetEndingMarkerForCurrentFile-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-SetEndingMarkerForCurrentFile.instance"/>
+        </file>
+        <file name="O-A.shadow">
+            <!--eu.fidli.markersToSelection.GoToBeginnerMark-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-GoToBeginnerMark.instance"/>
+        </file>
+        <file name="O-S.shadow">
+            <!--eu.fidli.markersToSelection.GoToEndingMark-->
+            <attr name="originalFile" stringvalue="Actions/Edit/eu-fidli-markersToSelection-GoToEndingMark.instance"/>
+        </file>
+    </folder>
+</filesystem>

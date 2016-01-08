@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="eu.fidli.markersToSelection">
+    <module_version install_time="1438541989132" last="true" origin="installer" specification_version="1.1">
+        <file crc="4018228114" name="config/Modules/eu-fidli-markersToSelection.xml"/>
+        <file crc="3029428241" name="modules/eu-fidli-markersToSelection.jar"/>
+    </module_version>
+</module>

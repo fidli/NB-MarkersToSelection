@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: eu.fidli.markersToSelection
+OpenIDE-Module-Localizing-Bundle: eu/fidli/markersToSelection/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.1
+
